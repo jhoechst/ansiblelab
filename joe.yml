@@ -4,8 +4,8 @@
   gather_facts: no
 
   tasks:
-  - name: show version
+  - name: show version
     nxos_command:
       host: '{{ inventory_hostname }}'
-      commands:
-      - show ip int br
+      commands:
+      - show ip int br
